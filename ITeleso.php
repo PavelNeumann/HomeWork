@@ -1,13 +1,13 @@
 <?php
 interface ITeleso {
     /** 
-     * Vypoète a vrátí povrch tìlesa
+     * Vypocte a vrÃ¡tÃ­ povrch telesa
      * 
      *@return float  
      */
     public function povrch(): float;
     /** 
-     * Vypoète a vrátí objem tìlesa
+     * Vypocte a vrÃ¡tÃ­ objem telesa
      * 
      *@return float  
      */
@@ -19,13 +19,13 @@ interface ITeleso {
      */
     public function is3D(): bool;
     /** 
-     * Vrací poèet vrcholu tìlesa
+     * VracÃ­ pocet vrcholu telesa
      * 
-     *@return int vrací 0 protože válec nemá žádné vrcholy  
+     *@return int vracÃ­ 0 protoÅ¾e vÃ¡lec nemÃ¡ Å¾Ã¡dnÃ© vrcholy  
      */
     public function pocetVrcholu():int;
     /** 
-     * Vygeneruje øetìz informující o tìlìsu
+     * Vygeneruje retezec informujÃ­cÃ­ o telesu
      * 
      *@return string
      */
