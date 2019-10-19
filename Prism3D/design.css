@@ -1,0 +1,45 @@
+body{
+background-image:linear-gradient(45deg, rgba(114, 244, 149, 0.27) 0%, rgba(114, 244, 149, 0.27) 37%,rgba(126, 221, 156, 0.27) 37%, rgba(126, 221, 156, 0.27) 48%,rgba(137, 197, 162, 0.27) 48%, rgba(137, 197, 162, 0.27) 49%,rgba(149, 174, 169, 0.27) 49%, rgba(149, 174, 169, 0.27) 59%,rgba(160, 151, 175, 0.27) 59%, rgba(160, 151, 175, 0.27) 60%,rgba(172, 128, 182, 0.27) 60%, rgba(172, 128, 182, 0.27) 86%,rgba(183, 104, 188, 0.27) 86%, rgba(183, 104, 188, 0.27) 95%,rgba(195, 81, 195, 0.27) 95%, rgba(195, 81, 195, 0.27) 100%),linear-gradient(135deg, rgba(100, 114, 232, 0.27) 0%, rgba(100, 114, 232, 0.27) 18%,rgba(126, 135, 203, 0.27) 18%, rgba(126, 135, 203, 0.27) 23%,rgba(153, 156, 173, 0.27) 23%, rgba(153, 156, 173, 0.27) 44%,rgba(179, 178, 144, 0.27) 44%, rgba(179, 178, 144, 0.27) 62%,rgba(206, 199, 114, 0.27) 62%, rgba(206, 199, 114, 0.27) 98%,rgba(232, 220, 85, 0.27) 98%, rgba(232, 220, 85, 0.27) 100%),linear-gradient(0deg, rgb(47, 132, 199) 0%, rgb(47, 132, 199) 2%,rgb(47, 130, 208) 2%, rgb(47, 130, 208) 44%,rgb(47, 127, 218) 44%, rgb(47, 127, 218) 48%,rgb(47, 125, 227) 48%, rgb(47, 125, 227) 77%,rgb(47, 122, 237) 77%, rgb(47, 122, 237) 78%,rgb(47, 120, 246) 78%, rgb(47, 120, 246) 100%) ;
+text-align: center;
+}
+h1{
+  border:1px solid white;
+  font-size:50px; 
+  width: 50%;
+  display: inline-block;
+    padding: 0px; 
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;   
+}
+section{
+    margin: 20px;
+    font-size:20px;
+    border: 1px solid white;
+    padding: 1px;
+    width: 50%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px
+}
+.logo{
+    float:left;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.Prism3D{
+    float:right;
+}
+.AMT{
+    float:right;
+    width: 220px;
+    height: 313px; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.EUT2{
+    float:left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
