@@ -12,7 +12,6 @@
                     <td>/</td><td><input name="prefix_value" id=""maxlenght="2" placeholder="xx"/></td></tr>
                 <tr><td><input type="submit" name="submit" value="submit" /></td></tr>
                 <?php
-                error_reporting(0);
                 If (isset($_POST[submit])) {
                     $IP_value = $_POST['IP_value'];
                     $prefix_value = $_POST['prefix_value'];
@@ -26,28 +25,28 @@
                             if ($prefix_value == "32" or $prefix_value == "31") {
                                 echo "These prefixes are useless!";
                             } else {
-                                /* výpoèet bitù, adres, a hostù */
+                                /* vÃ½poÄet bitÅ¯, adres, a hostÅ¯ */
                                 $bits = "32" - $prefix_value;
                                 $adress = "2" ** $bits;
                                 $hosts = $adress - "2";
-                                /* výpoèet masky */
+                                /* vÃ½poÄet masky */
                                 $last_octet = "256" - $adress;
                                 $mask = array("255", "255", "255", $last_octet);
                                 $mask_bin = array(decbin($mask[0]), decbin($mask[1]), decbin($mask[2]), decbin($mask[3]));
-                                /* výpoèet Networku */
-                                $y = "9" - $bits;
-                                $x = substr_replace($last_octet, "00000000", $y);
+                                /* vÃ½poÄet Networku */
+                                $y = "8" - $bits;
+                                $x = substr_replace (str_pad( decbin($values[3]),8,0,STR_PAD_LEFT), "00000000", $y);
                                 $network_octet = bindec(substr($x, 0, 8));
-                                /* první a poslední host */
-                                $first = $netwok_octet[3] + 1;
-                                $last = array($values[0], $values[1], $values[2], $broadcast_octet[3] + $hosts);
+                                /* prvnÃ­ a poslednÃ­ host */
+                                $first = $network_octet + 1;
+                                $last = $network_octet + $hosts;
                                 /* Broadcast */
-                                $broadcast_octet =  $last_octet + 1;
+                                $broadcast_octet =  $last + 1;
                                 echo "Your Resoults:";
                                 echo "<br>";
                                 echo "Yout IP:",$values[0], ".", $values[1], ".", $values[2], ".", $values[3],"/",$prefix_value;
                                 echo "<br>";
-                                echo "IP in binar:", decbin($values[0]), ".", decbin($values[1]), ".", decbin($values[2]), ".", decbin($values[3]);
+                                echo "IP in binar:", str_pad(decbin($values[0]),8,0,STR_PAD_LEFT), ".", str_pad(decbin($values[1]),8,0,STR_PAD_LEFT), ".", str_pad(decbin($values[2]),8,0,STR_PAD_LEFT), ".", str_pad(decbin($values[3]),8,0,STR_PAD_LEFT);
                                 echo "<br>";
                                 echo "Mask:", "255", ".", "255", ".", "255", ".", $last_octet;
                                 echo "<br>";
@@ -59,7 +58,7 @@
                                 echo "<br>";
                                 echo "Broadcast:", $values[0], ".", $values[1], ".", $values[2], ".", $broadcast_octet;
                                 echo "<br>";
-                                echo "Network:", $values[0], ".", $values[1], ".", $values[2], ".", $netwok_octet;
+                                echo "Network:", $values[0], ".", $values[1], ".", $values[2], ".", $network_octet;
                                 echo "<br>";
                                 echo "Hosts:", $hosts;
                                 echo"<br>";
