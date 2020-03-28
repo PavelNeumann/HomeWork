@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="drift_2_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="48.3333333333" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="File owner" value="Digiffects J - Special Collection"/>
+		<tag name="ALBUM" value="Digiffects J - Special Collection"/>
+		<tag name="Encoded by" value="Sound Grinder 3.5.6"/>
+		<tag name="ARTIST" value="Sound Ideas"/>
+		<tag name="Band" value="Digiffects J - Special Collection"/>
+		<tag name="COMMENTS" value="CAR CRASH, SCREECHING TIRES; DIGIFFECTS; Car Crashes"/>
+		<tag name="Content group description" value="Sound Ideas"/>
+		<tag name="GENRE" value="AUTO, CRASH"/>
+		<tag name="Original album" value="www.sound-ideas.com"/>
+		<tag name="Copyright message" value="2010 Sound Ideas (Digiffects J - Special Collection) "/>
+		<tag name="Original release time" value="2010"/>
+		<tag name="Publisher" value="Sound Ideas"/>
+		<tag name="YEAR" value="2010"/>
+		<tag name="Software" value="Soundminer"/>
+		<tag name="Subtitle" value="All Sound Effects &amp; Music are Copyright Sound Ideas - All Rights Reserved"/>
+		<tag name="TITLE" value="CAR CRASH, SCREECHING TIRES; DIGIFFECTS; Car Crashes"/>
+		<tag name="TRACKNUMBER" value="0"/>
+	</tags>
+	<wavetrack name="audio_hero_AutoCrash_DIGIJ01_21_319" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="117186">
+				<waveblock start="0">
+					<simpleblockfile filename="e080828c.au" len="117186" min="-0.080005" max="0.078279" rms="0.015486"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="audio_hero_AutoCrash_DIGIJ01_21_319" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="117186">
+				<waveblock start="0">
+					<simpleblockfile filename="e080808d.au" len="117186" min="-0.167042" max="0.196379" rms="0.039259"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="drfit_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0279071618" sel1="0.0279071618" vpos="0" h="0.0000000000" zoom="250.8316699933" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Encoded by" value="Sound Grinder 4.0"/>
+		<tag name="ARTIST" value="Sound Ex Machina"/>
+		<tag name="Band" value="Extreme Drift"/>
+		<tag name="Original album" value="Sound Ex Machina"/>
+		<tag name="GENRE" value="Vehicles"/>
+		<tag name="Original release time" value="2019"/>
+		<tag name="Subtitle" value="Copyright Owned by Sound Ex Machina. All rights reserved."/>
+		<tag name="TRACKNUMBER" value="0"/>
+		<tag name="COMMENTS" value="Drift car launching fast, maneuvering with screeching tires 02.wav"/>
+		<tag name="File owner" value="Extreme Drift"/>
+		<tag name="YEAR" value="2019"/>
+		<tag name="Software" value="Soundminer"/>
+	</tags>
+	<wavetrack name="sound_ex_machina_drift_car_launching_fast_maneuvering_with_screeching_tires_02" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30618">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808e47.au" len="30618" min="-0.560499" max="0.526579" rms="0.13977"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="sound_ex_machina_drift_car_launching_fast_maneuvering_with_screeching_tires_02" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30618">
+				<waveblock start="0">
+					<simpleblockfile filename="e080897a.au" len="30618" min="-0.556215" max="0.572497" rms="0.146356"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
