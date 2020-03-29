@@ -12,3 +12,6 @@ Ve hře budou zvukové efekty auta, bourání a kvílení gum při brždění. D
 
 ## Soundrack:
 Hudbu do hry sám tvořím pomocí programu Music Maker.
+
+## Propagace:
+Pro propagaci jsem vytvořil plakát ke hře.
