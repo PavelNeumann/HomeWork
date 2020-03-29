@@ -19,7 +19,7 @@
                     if ($values[0] > "255" or $values[1] > "255" or $values[2] > "255" or $values[3] > "255") {
                         echo 'Octet range is 0 - 255';
                     } else {
-                        if ($prefix_value < "2" or $prefix_value > "32") {
+                        if ($prefix_value < "24" or $prefix_value > "32") {
                             echo "wrong prefix(2-32)";
                         } else {
                             if ($prefix_value == "32" or $prefix_value == "31") {
