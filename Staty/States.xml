@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+   <states>
+    <state>
+        <name>Czech Republic</name>
+        <capital>Prague</capital>
+        <population>10 649 800</population>
+    </state>
+    <state>
+        <name>Finland</name>
+        <capital>Helsinky</capital>
+        <population>5 535 400</population>
+    </state>
+    <state>
+        <name>Poland</name>
+        <capital>Warsaw</capital>
+        <population>35 433 600</population>
+    </state>
+    <state>
+        <name>Netherland</name>
+        <capital>Amstrdam</capital>
+        <population>17 424 978</population>
+    </state>
+    <state>
+        <name>Italy</name>
+        <capital>Rome</capital>
+        <population>60 507 590</population>
+    </state>
+    <state>
+        <name>United States</name>
+        <capital>Washington D.C.</capital>
+        <population>328 239 523</population>
+    </state>
+    <state>
+        <name>Switzerland</name>
+        <capital>Bern</capital>
+        <population>8 570 146</population>
+    </state>
+    <state>
+        <name>Russia</name>
+        <capital>Moscow</capital>
+        <population>146 745 098</population>
+    </state>
+    <state>
+        <name>France</name>
+        <capital>Paris</capital>
+        <population>67 348 000</population>
+    </state>
+    <state>
+        <name>Canada</name>
+        <capital>Ottawa</capital>
+        <population>37 894 799</population>
+    </state>
+</states> 
+</root>
